@@ -14,7 +14,7 @@ public class SuccessOTA {
 	public static void main(String[] args) throws IOException {
 		SuccessOTA text = new SuccessOTA();
 		
-		File file = new File("C:/Users/Gopal/Desktop/Logdata/");
+		File file = new File("C:/../Logdata/");
         File[] files = file.listFiles();
         
         for(File f: files){

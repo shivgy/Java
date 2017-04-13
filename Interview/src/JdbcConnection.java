@@ -7,10 +7,10 @@ public class JdbcConnection {
 
 	public static void main(String[] args) {
 		
-		String connectionUrl = "jdbc:sqlserver://115.112.171.121;" + 
+		String connectionUrl = "jdbc:sqlserver://111.111.111.111;" + 
                 "database=Commserver;" + 
-                "user=shivgopal@suntelematics.com;" + 
-                "password=shiv@123";
+                "user=abcd@xyz.com;" + 
+                "password=xyz";
 		
 		// Declare the JDBC objects.  
         Connection connection = null;  

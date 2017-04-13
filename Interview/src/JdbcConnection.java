@@ -8,7 +8,7 @@ public class JdbcConnection {
 	public static void main(String[] args) {
 		
 		String connectionUrl = "jdbc:sqlserver://111.111.111.111;" + 
-                "database=Commserver;" + 
+                "database=myDatabase;" + 
                 "user=abcd@xyz.com;" + 
                 "password=xyz";
 		

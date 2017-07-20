@@ -13,13 +13,14 @@ void insertNth(int pos, int data){
   }
   
   /*For all the remaining conditions, iterate through the given position*/
-  int curPos = 0;
-  while(curPos < pos-1 && head.next != null){//Also ensure that the next element to the position is not null
-    head = head.next;
-    curPos++;
+  Node next = head;
+  Node prev = head;
+  
+  for(int i = 0; i < pos; i++){
+    prev = next;
+    next = next.next;
   }
   
-  Node curNode = head;
-  head.next = n;
-  n.next = curNode;
+  prev.next = n;
+  n.next = next;
 }  

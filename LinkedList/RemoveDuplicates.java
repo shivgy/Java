@@ -16,3 +16,21 @@ Node RemoveDuplicates(Node head){
     }
   return newNode;
 }
+
+  
+  /*Remove duplicates from unsorted Linked List*/
+  void deleteDups(Node head){
+    Hashtable<Integer, Boolean> ht = new Hashtable<>();
+    Node prev = head;
+    while(head.next != null){
+      if(ht.containsKey(head.data)) prev.next = head.next;
+      else{
+        ht.put(head.data, true);
+        prev = head;
+      }
+      head = head.next;
+    }
+  }
+  
+  
+  /*Remove duplicates from unsorted Linked List without using temp buffer*/

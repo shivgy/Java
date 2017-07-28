@@ -1,3 +1,5 @@
+/*This will remove the duplicates from a sorted Linked List*/
+
 Node RemoveDuplicates(Node head){
   Node newNode = head;
   

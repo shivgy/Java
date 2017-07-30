@@ -28,9 +28,9 @@ public class BinarySearch{
     while(low <= high){
       if(arr[mid] == num) return true;
       else if(arr[mid] < num)
-        binarySearchRec(arr,low,mid-1,num);
+        return binarySearchRec(arr,low,mid-1,num);
       else
-        binarySearchRec(arr,mid+1,high,num);
+        return binarySearchRec(arr,mid+1,high,num);
     }
     return false;
   }

@@ -34,3 +34,23 @@ Node RemoveDuplicates(Node head){
   
   
   /*Remove duplicates from unsorted Linked List without using temp buffer*/
+void deleteDups2(Node head){
+  Node prev = head;
+  Node cur = prev.next;
+  while(cur != null){
+    Node run = head;
+    while(run != cur){
+      if(run.data == cur.data){
+        Node temp = cur.next;
+        prev.next = temp;
+        cur = temp;
+        break;
+      }
+      run = run.next;
+    }
+    if(run == cur){
+      prev = cur;
+      cur = cur.next;
+    }
+  }
+}

@@ -25,7 +25,7 @@ public class BinarySearch{
   /*Recursive method*/
   public static Boolean binarySearchRec(int[] arr, int low, int high, int num){
     int mid = low + (high - low)/2;
-    while(low <= high){
+    if(low <= high){
       if(arr[mid] == num) return true;
       else if(arr[mid] < num)
         return binarySearchRec(arr,low,mid-1,num);

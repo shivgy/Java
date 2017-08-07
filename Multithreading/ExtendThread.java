@@ -31,3 +31,4 @@ class ThreadExample extends Thread{
     System.out.println("Thread terminated. Thread Id: " + Thread.currentThread.getId());
   }
 }
+

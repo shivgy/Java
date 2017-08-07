@@ -11,7 +11,7 @@ public class Addition_without_operator {
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		sc.close();
-		
+	
 		System.out.println("Sum of given two number is : " + add_num(a,b));
 	}
 	

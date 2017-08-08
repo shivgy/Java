@@ -1,3 +1,10 @@
+/*
+ *
+ * Can two instances of MyClass can call foo at the same time?
+ * It depends. If they have the same instance of MyObject. then No
+ * But if they hold different references, then the answer is yes.
+ */
+
 public class CrackingCode{
   public static void main(String[] args){
     MyObject obj1 = new MyObject();

@@ -17,7 +17,6 @@ public class JdbcConnection {
         Statement statement = null;   
         ResultSet resultSet = null;  
 
-
         try {
         	 //Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
            

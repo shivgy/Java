@@ -30,4 +30,8 @@ public class MyStack<T>{
     if(top == null) throw  new EmptyStackException();
     return top.data;
   }
+  
+  public boolean isEmpty(){
+    return top == null;
+  }
 }

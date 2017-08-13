@@ -24,5 +24,14 @@ pubilc class MyQueue<T>{
     }
   }
   
+  public T remove(){
+    if(first == null) throw new NoSuchElementException();
+    T data = first.data;
+    first = first.data;
+    if(first == null){
+      last = null;
+    }
+    return data;
+  }
   
 }

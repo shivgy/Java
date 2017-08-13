@@ -38,4 +38,8 @@ pubilc class MyQueue<T>{
     if(first == null) throw new NoSuchElementException();
     return first.data;
   }
+  
+  public boolean isEmpty(){
+    return first == null;
+  }
 }

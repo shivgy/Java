@@ -13,10 +13,11 @@ public class TestSolution {
 		for(int i = 0; i < n; i++){
 			int r = sc.nextInt();
 			if(r == 1){
-				myStack.push(sc.nextInt());
-				if(maxStack.isEmpty()) maxStack.push(myStack.peek());
-				else if(maxStack.peek()<=myStack.peek()){
-					maxStack.push(myStack.peek());
+				int k = sc.nextInt();
+				myStack.push(k);
+				if(maxStack.isEmpty()) maxStack.push(k);
+				else if(maxStack.peek()<=k){
+					maxStack.push(k);
 				}
 			}else if(r == 2){
 				if(myStack.peek() == maxStack.peek()){

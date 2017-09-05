@@ -53,10 +53,22 @@ public class A{
   
   private class B{
     //This class cannot be accessed from an object outside the class
+    void msg(){
+      System.out.println("Inside nested class B with private access modifier");
+    }
   }
   
   public static void main(String[] args){
-    //..
+    C obj1 = new C();
+    obj1.prin();  //-------->>>> This will throw error on execution as, Class is B is made private.
+  }
+}
+
+class C{
+  void prin(){
+    A obj = new A();
+    A.B nested_obj = obj.new B();
+    nested_obj.msg();
   }
 }
 ```
@@ -64,6 +76,22 @@ public class A{
 ## Nested Class with `static` keyword
 In Java, we have static instance variables as well as static methods and also static block. 
 Classes can also be made static in Java. Here, we can’t make top level class static. Only nested classes can be static. 
+
+**Note :** Nested static class doesn't need reference of Outer class.
+```
+public class A{
+  private static class B{
+    void msg(){
+      System.out.println("Inside nested class B this will be accessed outside the outer class");
+    }
+  }
+  
+  public static void main(String[] args){
+    B obj = new B();
+    obj.msg();
+  }
+}
+```
 
 ## Difference between static and non-static nested classes:
 1. Nested static class doesn’t need reference of Outer class, but non-static nested class or inner class require Outer class reference.

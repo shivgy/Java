@@ -8,11 +8,39 @@
 ```
 public class A{
   public class B{
-    //...
+    void msg(){
+      System.out.println("I am inside nested class B");
+    }
   }
   
   public static void main(String[] args){
-    //...
+    A obj = new A();
+    A.B new_obj = obj.new B();
+    new_obj.msg();
+  }
+}
+```
+Because the nested class is `public` it can be accessed from outside the outer class. Following example illustrates this:
+
+```
+public class A{
+  public class B{
+    void msg(){
+      System.out.println("Inside nested class B this will be accessed outside the outer class");
+    }
+  }
+  
+  public static void main(String[] args){
+    C obj1 = new C();
+    obj1.prin();
+  }
+}
+
+class C{
+  void prin(){
+    A obj = new A();
+    A.B nested_obj = obj.new B();
+    nested_obj.msg();
   }
 }
 ```

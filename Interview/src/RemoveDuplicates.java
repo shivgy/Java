@@ -12,8 +12,8 @@ public class RemoveDuplicates {
 		}
 		System.out.println(list.toString());
 		
-			for(int j = i+1; j < list.size(); j++){
-				if(list.get(i).equals(list.get(j))){
+			for(int j = 1; j < list.size(); j++){
+				if(list.get(j-1).equals(list.get(j))){
 					count++;
 					if(count > 1){
 						list.remove(j);

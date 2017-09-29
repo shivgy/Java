@@ -1,0 +1,2 @@
+# Serialization
+It is a mechanism of converting the state of an object into a byte stream.

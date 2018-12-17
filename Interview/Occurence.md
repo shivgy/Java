@@ -21,16 +21,16 @@ for(int i = 0; i<strArray.length; i++)
 5. Use a *for-loop* to iterate all the elements of the Array. Use *while-loop* inside *for-loop* to count the Occurance.
 
 ```
-  String temp;
-		for(int i = 0; i < strArr.length; i++)
-		{
-			int charCount = 0;
-			temp = strArr[i];
-			while((i+charCount)<strArr.length &&strArr[i+charCount].equals(temp))
-			{
-				charCount++;
-			}
-			System.out.print(temp+""+charCount);
-			i+=charCount-1;
-		}
+String temp;
+for(int i = 0; i < strArr.length; i++)
+{
+	int charCount = 0;
+	temp = strArr[i];
+	while((i+charCount)<strArr.length &&strArr[i+charCount].equals(temp))
+	{
+		charCount++;
+	}
+	System.out.print(temp+""+charCount);
+	i+=charCount-1;
+}
 ```

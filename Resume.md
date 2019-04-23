@@ -1,4 +1,5 @@
-# Shiv Gopal Yadav *(Software Developer)*
+# Shiv Gopal Yadav 
+### *(Software Developer)*
 https://in.linkedin.com/in/shivgy
 
 Bangalore, Karnataka - 560035
@@ -14,9 +15,9 @@ Bangalore, Karnataka - 560035
 ## WORK EXPERIENCE
 Software Developer, Adjetter Media Network Pvt. Ltd.,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**February 2019 - Present**	
 
-Product Engineer, Sun Telematics Pvt. Ltd.,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**September 2015 – February 2019 (3.5 years)**
+Product Engineer, Sun Telematics Pvt. Ltd.,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**September 2015 – February 2019	(3.5 years)**
 
-Project Associate, IIT – Kanpur,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**June 2011 to May 2013**
+Project Associate, IIT – Kanpur,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**June 2011 to May 2013	(2.0 years)**
 
 ## EDUCATION
 M. Tech – Microelectronics – 06/2015 Indian Institute of Information Technology (IIIT), Allahabad, U.P., India

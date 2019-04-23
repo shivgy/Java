@@ -1,4 +1,4 @@
-# Shiv Gopal Yadav
+# Shiv Gopal Yadav *(Software Developer)*
 https://in.linkedin.com/in/shivgy
 
 Bangalore, Karnataka - 560035
@@ -12,11 +12,11 @@ Bangalore, Karnataka - 560035
 *	Prior experience as a Teaching assistant in Mentoring Undergrads in the lab experiment of basic electronics.
 
 ## WORK EXPERIENCE
-Software Developer, Adjetter Media Network Pvt. Ltd.,			February 2019 - Present	
+Software Developer, Adjetter Media Network Pvt. Ltd.,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**February 2019 - Present**	
 
-Product Engineer, Sun Telematics Pvt. Ltd.,				September 2015 – February 2019
+Product Engineer, Sun Telematics Pvt. Ltd.,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**September 2015 – February 2019 (3.5 years)**
 
-Project Associate, IIT – Kanpur,					June 2011 to May 2013
+Project Associate, IIT – Kanpur,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**June 2011 to May 2013**
 
 ## EDUCATION
 M. Tech – Microelectronics – 06/2015 Indian Institute of Information Technology (IIIT), Allahabad, U.P., India
@@ -60,9 +60,9 @@ An application which reads the employee card numbers from RFID reader and update
 
 **UML/ Flow Chart	:** Microsoft Visio
 
-**Database Platform	:** MSSQL
+**Database Platform	:** MSSQL, MySQL
 
-**Development Tool	:** Eclipse (Mars), Git, Dreamweaver, MATLAB
+**Development Tool	:** Eclipse (Mars), Git, Dreamweaver, MATLAB, SVN
 
 ## VOLUNTEER WORK
 Seventh Science Conclave, IIIT – Allahabad (Dec – 2014)
@@ -74,5 +74,7 @@ Member, Registration Committee.
 
 Date:	
 
-Place: Bangalore	(Shiv Gopal Yadav)
+Place: Bangalore	
+
+(Shiv Gopal Yadav)
 

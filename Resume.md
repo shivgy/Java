@@ -4,7 +4,7 @@ https://in.linkedin.com/in/shivgy
 Bangalore, Karnataka - 560035
 
 ## Summary
-* 2 years of industry experience at Sun Telematics Pvt. Ltd., a leading startup in Telematics and Employee Transport Management Systems. 
+* 3.5 years of industry experience at Sun Telematics Pvt. Ltd., a leading startup in Telematics and Employee Transport Management Systems. 
 *	Hands on experience in Core java (Multithreading, Collections, JDBC), Spring MVC, OOPS, MSSQL, Data structure and Algorithms.
 *	Experience in design and development of website (https://mi.iiita.ac.in) using HTML, CSS and JavaScript.
 *	Programming experience at IIT Kanpur where I have transformed complete RF & Microwave laboratory into virtual laboratory (http://www.iitk.ac.in/mimt_lab/vlab/index.php) using LabView Tool and MATLAB and also made an analytical model for wireless power transmitter.
@@ -12,7 +12,9 @@ Bangalore, Karnataka - 560035
 *	Prior experience as a Teaching assistant in Mentoring Undergrads in the lab experiment of basic electronics.
 
 ## WORK EXPERIENCE
-Product Engineer, Sun Telematics Pvt. Ltd.,		September 2015 – Present
+Software Developer, Adjetter Media Network Pvt. Ltd.,			February 2019 - Present	
+
+Product Engineer, Sun Telematics Pvt. Ltd.,				September 2015 – February 2019
 
 Project Associate, IIT – Kanpur,					June 2011 to May 2013
 
